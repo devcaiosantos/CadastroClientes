@@ -1,0 +1,129 @@
+body{
+background-image: url('./fundoNotebook3.jpg');
+font: normal 15pt Arial;
+ background-repeat: no-repeat, repeat;
+background-color: #cccccc;
+background-position: 50% 0%; 
+background-size: 100% , 100%;
+  
+}
+
+header{
+    color: rgb(255, 255, 255);
+    text-shadow:rgb(0, 0, 0) -3px -3px;
+    text-align: center;
+
+}
+
+section{
+background: white;
+border-radius: 10px;
+padding: 15px;
+width: 550px;
+margin:auto;
+box-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+#btentrar{
+
+    margin-left: 40%;
+    padding: 3px;
+    width: 100px;
+    background: #f1ae60;
+    }
+
+footer{
+color: white;
+text-align: center;
+font-style: italic;
+text-shadow:rgb(0, 0, 0) -1px -1px;
+}
+#clien{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 1000px;
+    margin:auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+input{
+    background: white;
+border-radius: 10px;
+padding: 3px;
+width: 200px;
+margin-left: 10px;
+border-width: -2mm;
+
+}
+#btncadastro{
+    background: #f1ae60;
+    border-radius: 10px;
+    border-width: -2mm;
+    width: 100px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+} 
+pre{font: normal 15pt Arial;}
+
+#h1a{
+    text-align: center;
+}
+#sectab{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 98%;
+    margin:auto;
+    margin-top: 12px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    }    
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+.campo{
+	margin-right: 5;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 60%;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+.campo-invalido{
+	border: 1px solid red;
+}
+select{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 1px;
+    background: white;
+    border-radius: 10px;
+    padding: 3px;
+    width: 200px;
+}
+#vencimento{
+    margin-bottom: 10px;
+
+}

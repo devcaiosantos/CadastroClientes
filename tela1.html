@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link type="text/css" rel="stylesheet" href="estilo.css">
+    <title>Cadastro cliente</title>
+</head>
+<body>
+    
+    <section>
+        <!-- <div>     <h1 id="h1a">  <i>Cadastro cliente:</i></pre>  </h1>
+            <pre><p><i class="fas fa-user"></i> Nome:                   <input type="text" id="nomeclien"/></p><p><i class="fas fa-phone-alt"></i> Contato:               <input type="text" id="contato" /></p><p><i class="fas fa-envelope"></i> E-mail:                  <input type="email" id="emailclien"/></p><p><i class="fas fa-calendar-alt"></i> Data Asssinatura:  <input id="date" type="date" value="2017-06-01"></p><i class="fas fa-business-time"></i> Tempo assinatura:  <select 
+                id="cars" name="tempo">
+                <option value="1">1 dia</option>
+                <option value="2">1 mês</option>
+                <option value="3">6 meses</option>
+                
+              </select></p></pre>
+        
+        </div> -->
+        <ul id="mensagens-erro"></ul>
+        <form id="form-cadastro"><h1><b>Cadastro cliente:</b></h1>
+            <div class="">
+                <br/><label for="nome"><i class="fas fa-user"></i> Nome:</label><br/>
+                <input id="nome" name="nome" type="text" placeholder="digite o nome do seu cliente" class="campo">
+            </div>
+            <div class="grupo">
+                <br/><label for="contato"><i class="fas fa-phone-alt"></i> Contato:</label><br/>
+                <input id="contato" name="contato" type="text" placeholder="digite o contato do seu cliente" class="campo campo-medio"><br/>
+            </div>
+            <div class="grupo">
+                <br/><label for="email"><i class="fas fa-envelope"></i> E-mail:</label><br/>
+                <input id="email" name="email" type="text" placeholder="digite o email do seu cliente" class="campo campo-medio">
+            </div>
+            <div class="grupo">
+                <br/><label for="dtassinatura"><i class="fas fa-calendar-alt"></i> Data assinatura:</label><br/>
+                <input id="dtassinatura" name="dtassinatura" type="date" placeholder="digite a data de assinatura" class="campo campo-medio">
+                
+            </div>
+            <div class="grupo">
+                <br/><label for="tmassinatura"><i class="fas fa-business-time"></i> Tempo assinatura:</label><br/>
+                <select 
+                id="tmassinatura" name="tmassinatura">
+                <option value="1">1 dia</option>
+                <option value="2">1 mês</option>
+                <option value="3">6 meses</option>
+                
+              </select><br/>
+           <div class="grupo">
+                <br/><label for="vencimento"><i class="fas fa-calendar-alt"></i> Data vencimento</label><br/>
+                <input id="vencimento" name="vencimento" type="date"  class="campo campo-medio">
+            </div>
+              
+            </div>
+            <button id="btncadastro"><b>Cadastrar</b></button>
+        </form>
+    
+        
+
+    </section>
+    <section id="sectab">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Contato</th>
+                    <th>E-mail</th>
+                    <th>Data Assinatura</th>
+                    <th>Tempo assinatura</th>
+                    <th>Vencimento</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-cliente">
+                <tr class="cliente" id="primeiro-cliente">
+                    <td class="info-nome">Paulo</td>
+                    <td class="info-contato">(11)1111111</td>
+                    <td class="info-email">a@gmail.com</td>
+                    <td class="info-dtassinatura">2017-06-01</td>
+                    <td class="info-tmassinatura">1</td>
+                    <td class="info-vencimento">2017-06-02</td>
+                </tr>
+
+                <tr class="cliente" >
+                    <td class="info-nome">João</td>
+                    <td class="info-contato">(22)2222222</td>
+                    <td class="info-email">b@gmail.com</td>
+                    <td class="info-dtassinatura">2017-06-01</td>
+                    <td class="info-tmassinatura">2</td>
+                    <td class="info-vencimento">2017-07-01</td>
+                </tr>
+
+                <tr class="cliente" >
+                    <td class="info-nome">Erica</td>
+                    <td class="info-contato">(33)3333333</td>
+                    <td class="info-email">c@gmail.com</td>
+                    <td class="info-dtassinatura">2017-06-01</td>
+                    <td class="info-tmassinatura">3</td>
+                    <td class="info-vencimento">2017-12-01</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+    <script src="./form.js" ></script>
+    <script src="remove.js"></script>
+    
+</body>
+</html>
